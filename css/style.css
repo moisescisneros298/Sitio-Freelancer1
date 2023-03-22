@@ -4,10 +4,12 @@
     --primario: #ffc107;
     --secundario: #0097a7;
     --gris: #757575;
+    --grisClaro: #dfe9f3;
 }
 *, *::before, *::after {
     box-sizing: inherit;
 }
+/* Globales */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -15,6 +17,7 @@ html {
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 
 h1 {
