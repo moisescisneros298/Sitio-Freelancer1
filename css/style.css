@@ -19,6 +19,12 @@ body {
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
+.sombra {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.54);
+    background-color: var(--blanco);
+    padding: 3rem;
+    border-radius: 1rem;
+}
 
 h1 {
     font-size: 3.8rem;
@@ -85,6 +91,7 @@ h1,h2,h3 {
     background-size: cover;
     height: 41rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 .contenido-hero {
     position: absolute;
