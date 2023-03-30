@@ -228,3 +228,8 @@ h1,h2,h3 {
     padding: 1.5rem;
     border-radius: .5rem;
 }
+
+/* Footer */
+.footer {
+    text-align: center;
+}
