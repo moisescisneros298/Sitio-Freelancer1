@@ -68,7 +68,7 @@ h1,h2,h3 {
 }
 
 /* Utilidades */
-.w-100 {
+.w-sm-100 {
     width: 100%;
 }
 @media (min-width: 768px) {
